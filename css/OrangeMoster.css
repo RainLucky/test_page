@@ -1,0 +1,314 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: initial;
+}
+
+.bg {
+    background-image: url('../assets/ogMs_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.all {
+    margin: 0 2%;
+    /*padding: 0;*/
+    height: auto;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    margin: 0 -2%;
+}
+
+figure {
+    width: auto;
+    height: auto;
+    display: block;
+    align-content: center;
+}
+
+form {
+    width: auto;
+    height: auto;
+    display: block;
+    float: left;
+    margin: -5% 2%;
+}
+
+.search {
+    display: block;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #261814;
+    width: 100%;
+    float: right;
+    margin-top: 10%;
+    opacity: 0.7;
+    color: #fff;
+    font-weight: bold;
+    height: 28px;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #fff;
+    font-weight: bold;
+}
+
+ :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+    font-weight: bold;
+}
+
+ ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #fff;
+    font-weight: bold;
+}
+
+ :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu {
+    width: 45%;
+    height: 33px;
+    display: block;
+    float: right;
+    margin: 0;
+    opacity: 0.8;
+}
+
+.menu img {
+    float: right;
+    width: auto;
+    margin: auto 2%
+}
+
+.menu_son {
+    list-style: none;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #231f20;
+    float: right;
+}
+
+.menu_son li {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    background-color: #231f20;
+    opacity: 0.8;
+}
+
+.menu:hover .menu_son {
+    display: block;
+}
+
+.menu_son:hover .menu_img {
+    display: none;
+}
+
+.menu .menu_son {
+    display: none;
+}
+
+.no_play {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    width: 850px;
+    height: 35px;
+    float: left;
+}
+
+
+/*
+li {
+    display: block;
+    width: 15.05%;
+    height: 100%;
+    background-color: #231f20;
+    opacity: 0.8;
+}
+*/
+
+a {
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    font-size: 120%;
+    text-align: left;
+    padding: 1.5% 15%;
+    height: 100%;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #f7941e;
+    color: #231f20;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main_img {
+    width: 100%;
+}
+
+.img1 {
+    width: 100%;
+    height: auto;
+    margin: 1.5% auto 1.5% auto;
+}
+
+.left {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 3% 0;
+    background-color: #261814;
+    opacity: 0.8;
+    padding: 2% 2.5%;
+}
+
+.mdl {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 3% auto;
+    background-color: #261814;
+    float: left;
+}
+
+.feat1 {
+    width: 95%;
+    height: 46%;
+    margin: 3% 2.5%;
+    float: left;
+}
+
+.feat2 {
+    width: 95%;
+    height: auto;
+    margin: 0 2.5% 3% 2.5%;
+    float: left;
+}
+
+.right {
+    width: 100%;
+    height: auto;
+    float: right;
+    margin: 1% auto 3% auto;
+    background-color: #261814;
+    opacity: 0.7;
+    padding: 2% 2.5%;
+}
+
+.font1 {
+    color: #fff;
+    font-weight: bold;
+}
+
+p {
+    font-size: 60%;
+}
+
+span {
+    color: #2a52a3;
+}
+
+button {
+    background-color: #2b6598;
+    border-radius: 10px 10px;
+    border-style: none;
+    font-size: 70%;
+    text-align: center;
+    display: block;
+    width: 30%;
+    height: 20px;
+    padding: 2% auto;
+    margin: 2% 0;
+}
+
+footer {
+    background: -webkit-linear-gradient(#442908 2%, #d47f1a 10%, #f7941e 80%);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#442908 2%, #d47f1a 10%, #f7941e 80%);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#442908 2%, #d47f1a 10%, #f7941e 80%);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(#442908 2%, #d47f1a 10%, #f7941e 80%);
+    /* 标准的语法（必须放在最后） */
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 4% 3%;
+    /*  margin-top: 37.35%;*/
+}
+
+.div_foot {
+    display: block;
+    width: 33%;
+    height: 80%;
+    float: left;
+}
+
+footer div p {
+    display: block;
+    margin: -1px auto;
+}
+
+footer div p span {
+    color: #4fa3c7;
+}
+
+footer div br {
+    margin: 2% auto;
+    padding: 0;
+    display: block;
+}
+
+.p1 {
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ft_img {
+    width: 35%;
+    border-radius: 10% 10%;
+    background-color: #ffffff;
+    height: 100px;
+    padding: 2% 2%;
+    margin: 3% -2%;
+}
+
+footer div img {
+    margin: 25% 15% 5% 15%;
+    width: 85%;
+    height: auto;
+    padding-top: 10%;
+}
+
+.triangle {
+    position: relative;
+    top: -38%;
+    right: -106.5%;
+    /* 圆角的位置需要细心调试哦 */
+    width: 0;
+    height: 0;
+    font-size: 0;
+    border: solid 8px;
+    border-color: #e68a1c#e98c1c #ffffff #ffffff;
+}
